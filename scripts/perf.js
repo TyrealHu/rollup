@@ -6,7 +6,7 @@ import { cwd } from 'process';
 import { fileURLToPath } from 'url';
 import { createColors } from 'colorette';
 import prettyBytes from 'pretty-bytes';
-import loadConfigFile from '../dist/loadConfigFile.js';
+import { loadConfigFile } from '../dist/loadConfigFile.js';
 import { rollup } from '../dist/rollup.js';
 import { findConfigFileName } from './find-config.js';
 
